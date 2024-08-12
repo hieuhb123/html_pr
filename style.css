@@ -1,0 +1,134 @@
+.main {
+    margin: 0px 0px 0px 0px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.page {
+    padding-top: 0px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 0px;
+    height: 1080px;
+    width: 1520px;
+}
+
+.intro {
+    background-image: url('./assets/image/1.jpg');
+    background-repeat: no-repeat;
+}
+.features {
+    background-image: url('./assets/image/2.jpg');
+    background-repeat: no-repeat;
+    height: 880px;
+}
+.logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 650;
+    font-size: 32px;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    top: 67px;
+    /* left: 23px; */
+}
+.menubar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 31px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    gap:20px;
+}
+.menubar > li{
+    list-style: none;
+    font-size: 28px;
+    opacity: 0.4;
+}
+.highlight {
+    color: #66CCFF;
+}
+.intro-box {
+    display: inline-block;
+    position: relative;
+    top: 24.5%;
+}
+
+.intro-box > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.intro-box > p {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    opacity: 0.4;
+}
+
+.request {
+    background-image: url('./assets/image/back_intro.png');
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    padding-top: 25px;
+    background-size: 100% 100%;
+    height: 65px;
+    width: 288px;
+    text-align: center;
+    font-weight: 650;
+    font-size: 27px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 8px;
+    font-size: 55px;
+    font-weight: 400;
+}
+.line {
+    background-color: white;
+    width: 100px;
+    height: 3px;
+    opacity: 0.5;
+}
+
+.features-box {
+    margin-top: 168px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.tickets {
+    background-color:  #1b00a7;
+    border-radius: 2%;
+    width: 442px;
+    height: 388px;
+}
+.tickets > h3 {
+    font-size: 43px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    margin-left: 95px;
+    text-align: right;
+    vertical-align: middle;
+    width: 300px;
+    height: 105px;
+}
+.footage {
+    width: 100%;
+    height: 228px;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    background-color: white;
+}

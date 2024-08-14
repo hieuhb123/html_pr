@@ -1,5 +1,6 @@
 .main {
     margin: 0px 0px 0px 0px;
+
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
@@ -10,9 +11,10 @@
     padding-top: 0px;
     padding-right: 200px;
     padding-left: 200px;
-    padding-bottom: 0px;
-    height: 1080px;
+    padding-bottom: 140px;
+    height: 940px;
     width: 1520px;
+
 }
 
 .intro {
@@ -22,7 +24,16 @@
 .features {
     background-image: url('./assets/image/2.jpg');
     background-repeat: no-repeat;
-    height: 880px;
+    height: 740px;
+}
+.services {
+    background-image: url('./assets/image/3.jpg');
+    background-repeat: no-repeat;
+    /* background-color: #110a4a; */
+}
+.testimonials {
+    background-image: url('./assets/image/4.jpg');
+    background-repeat: no-repeat;
 }
 .logo {
     margin-top: 0px;
@@ -33,7 +44,6 @@
     display: inline-block;
     position: relative;
     top: 67px;
-    /* left: 23px; */
 }
 .menubar {
     display: flex;
@@ -182,4 +192,30 @@
     margin-top: 0px;
     font-size: 17px;
     opacity: 0.6;
+}
+.services-box {
+    display: grid;
+    margin-top: 120px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 56px;
+    row-gap: 50px;
+}
+.services-box-item {
+    height: 320px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    h3 {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 34px;
+    }
+    p {
+        font-size: 28px;
+        font-weight: 340;
+        opacity: 0.6;
+    }
 }

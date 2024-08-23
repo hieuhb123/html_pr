@@ -7,7 +7,10 @@
     scale: 0.8; transform:translateX(-12.495%) translateY(-12.499%);
     background-color: #100848;
 }
-
+.gradient-background {
+    background: linear-gradient(300deg, #da04d7, #805ae7, #03d0ff);
+    animation: gradient-animation 18s ease infinite;
+  }
 .page {
     padding-top: 0px;
     padding-right: 200px;
@@ -82,16 +85,12 @@
 }
 
 .request {
-    background-image: url('./assets/image/back_intro.png');
-    background-repeat: no-repeat;
     margin-top: 60px;
-    padding-top: 25px;
-    background-size: 100% 100%;
-    height: 65px;
+    height: 90px;
     width: 288px;
-    text-align: center;
     font-weight: 650;
     font-size: 27px;
+    color: white;
 }
 .content {
     display: flex;
